@@ -4,15 +4,14 @@
 	background-color: rgb(225,225,225) ;
 }*/
 body{
-	background-image: url('https://ak3.picdn.net/shutterstock/videos/9589493/thumb/1.jpg');
+	background-image: url('assets/images/bg_cargo.jpg');
 	background-repeat: no-repeat;
-	/*background-size: cover;*/
-	background-size: 100%;
+	background-size: 100% 100vh;
 }
 
 @media only screen and (max-width: 768px) {
 	body{
-		background-image: url('https://ak3.picdn.net/shutterstock/videos/9589493/thumb/1.jpg');
+		background-image: url('http://www.cpssosuacabarete.com/img/Fotolia_20549086_Subscription_L.jpg');
 		background-repeat: no-repeat;
 		background-size: 100% 100vh;
 	}
@@ -20,7 +19,7 @@ body{
 
 @media only screen and (max-width: 960px) {
 	body{
-		background-image: url('https://ak3.picdn.net/shutterstock/videos/9589493/thumb/1.jpg');
+		background-image: url('http://www.cpssosuacabarete.com/img/Fotolia_20549086_Subscription_L.jpg');
 		background-repeat: no-repeat;
 		background-size: 100% 100vh;
 	}
@@ -28,7 +27,7 @@ body{
 
 @media only screen and (max-width: 1024px) {
 	body{
-		background-image: url('https://ak3.picdn.net/shutterstock/videos/9589493/thumb/1.jpg');
+		background-image: url('http://www.cpssosuacabarete.com/img/Fotolia_20549086_Subscription_L.jpg');
 		background-repeat: no-repeat;
 		background-size: 100% 100vh;
 	}

@@ -4,3 +4,17 @@ nav{
 ul{
 	margin-right: 10%;
 }
+/*
+.dropdown-menu{
+    background:transparent !important;
+    border:0px;
+}
+
+.dropdown-menu > .dropdown-item{
+    color: white !important;
+}
+
+.dropdown-menu > .dropdown-item:hover{
+    color: white !important;
+    background-color: transparent;
+}*/
