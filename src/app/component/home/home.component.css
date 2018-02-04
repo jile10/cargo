@@ -1,5 +1,8 @@
 
 .jumbotron{
-	background: transparent;
+	background-image: url('/assets/images/bg_cargo.jpg');
 	color: white;
+	background-repeat: no-repeat;
+	height: calc(100vh - 70px);
+	border-radius: 0px;
 }
