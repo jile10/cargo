@@ -8,8 +8,8 @@ ul > li > a:hover{
 	color: #800000;
 }
 
-.show > .nav-link {
-	color: #800000;
+.show > .nav-link, .nav-link.active {
+	color: #800000 !important;
 }
 
 .dropdown-menu{
