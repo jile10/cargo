@@ -5,11 +5,15 @@ ul{
 	margin-right: 10%;
 }
 ul > li > a:hover{
-	color: #800000;
+	color: #CC0001;
 }
 
 .show > .nav-link, .nav-link.active {
-	color: #800000 !important;
+	color: #CC0001 !important;
+}
+
+.nav-link{
+	font-weight: bolder;
 }
 
 .dropdown-menu{

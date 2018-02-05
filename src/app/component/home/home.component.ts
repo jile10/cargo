@@ -11,11 +11,4 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  anchorClicked(id){
-         const element = document.querySelector ( "#" + id )
-         if (element) {
-         	element.scrollIntoView();
-         }
-  }
 }

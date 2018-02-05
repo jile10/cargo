@@ -1,7 +1,7 @@
 
 .jumbotron{
 	min-height: calc(100vh - 70px);
-	background-image: url('/assets/images/bg_cargo.jpg');
+	background-image: url('http://steer.com/wp-content/uploads/2018/01/AdobeStock_61566295.jpeg');
 	background-size: cover;
 	color: white;
 	background-repeat: no-repeat;
@@ -11,10 +11,6 @@
 
 .about, .feedback{
 	min-height: 100vh;
-}
-.feedback{
-	/*background-color: rgb(240,240,240);*/
-	
 }
 
 .btn-lg{
@@ -53,17 +49,14 @@
 	margin-top: 46px;
 }
 
-.about{
-	color: white;
-}
-.heading {
-	padding-top: 3%;
-}
+@media only screen and (max-width: 768px) {
 
-.about-content{
-	padding: 5% 0px;
-}
-
-.progressBar{
-	padding: 10px 0px;
+	.title .text2{
+		font-size: 45px;
+		text-transform: uppercase;
+		letter-spacing: 7.2px;
+		font-weight: 700;
+		line-height: 45px;
+		margin-top: 30px;
+	}
 }

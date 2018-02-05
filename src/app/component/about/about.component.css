@@ -1,0 +1,36 @@
+.feedback{
+	min-height: 95vh;
+}
+.about{
+	color: white;
+}
+
+.about-content{
+	padding: 5% 0px;
+}
+
+.progressBar{
+	padding: 10px 0px;
+}
+
+.heading{
+	height: 60vh;
+	background-image: url('http://www.pxleyes.com/images/contests/long-exposure-2/fullsize/A-truck-passed-by--50a7bc1948928_hires.jpg');
+	background-size: 100% 60vh;
+	background-repeat: no-repeat;
+}
+
+.display-3{
+	font-weight: bolder !important;
+}
+
+.clear{
+	height: 5vh;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.display-3{
+		font-size: 48px !important;
+	}
+}
