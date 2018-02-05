@@ -1,16 +1,20 @@
 
 .jumbotron{
+	min-height: calc(100vh - 70px);
 	background-image: url('/assets/images/bg_cargo.jpg');
+	background-size: cover;
 	color: white;
 	background-repeat: no-repeat;
-	height: calc(100vh - 70px);
 	border-radius: 0px;
 	margin: 0px !important;
 }
 
-.about{
-	background-color: #E21F2F;
-	height: 100vh;
+.about, .feedback{
+	min-height: 100vh;
+}
+.feedback{
+	/*background-color: rgb(240,240,240);*/
+	
 }
 
 .btn-lg{
@@ -53,5 +57,13 @@
 	color: white;
 }
 .heading {
-	padding-top: 3%;
+	padding-top: 5%;
+}
+
+.about-content{
+	padding-top: 5%;
+}
+
+.progressBar{
+	padding: 10px 0px;
 }
