@@ -6,6 +6,7 @@ import { AppRoutingModule,routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './component/about/about.component';
+import { ComponentcontactComponent } from './componentcontact/componentcontact.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { AboutComponent } from './component/about/about.component';
     AppComponent,
     HeaderComponent,
     routingComponents,
+    ComponentcontactComponent,
   ],
   imports: [
     BrowserModule,
