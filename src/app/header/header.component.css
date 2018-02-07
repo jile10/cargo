@@ -4,6 +4,30 @@ nav{
 ul{
 	margin-right: 10%;
 }
+ul > li > a:hover{
+	color: #CC0001;
+}
+
+.show > .nav-link, .nav-link.active {
+	color: #CC0001 !important;
+}
+
+.nav-link{
+	font-weight: bolder;
+}
+
+.dropdown-menu{
+	background-color: #282E3E;
+}
+
+.dropdown-menu > .dropdown-item{
+	color: white !important;
+}
+
+.dropdown-menu > .dropdown-item:hover{
+	background-color: transparent;
+	color: red !important;
+}
 /*
 .dropdown-menu{
     background:transparent !important;
