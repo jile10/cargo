@@ -2,8 +2,13 @@
 	height: 50px;
 	width: 100%;
 	padding: 0px;
+	margin: 0px;
 }
 
 .footer>div>h5{
 	padding: 0px;
+}
+
+.h-60{
+	height: 50px;
 }
