@@ -13,6 +13,10 @@
 	min-height: 75vh;
 }
 
+.bg-secondary{
+	background-color: #D6D8D9 !important;
+}
+
 @media only screen and (max-width: 768px) {
 	.display-3{
 		font-size: 48px !important;

@@ -12,9 +12,57 @@
 		</div>
 	</div>
 </div>
-<div class="contact bg-light">
-	
-</div>
 <div class="map">
 	<iframe src="https://www.google.com/maps/d/embed?mid=1TxIfpHot-x6yUCqyHZU26dNSygiCCGZN" class="map" width="100%"></iframe>
+</div>
+<div class="container-fluid bg-secondary text-dark contact">
+ 	<div class="row justify-content-center">
+	    <div class="col-11 ">
+		    <div class="about-content row justify-content-center p-20 pb-5">
+		    	<div class="col-md-7 col-sm-12 pt-5 text-white">
+		    		<div class="col-md-12 pl-5 pr-5 col-sm-12 bg-danger pt-4 pb-4">
+		    			<div class="title pb-4">
+		    				<h1 class="border-bottom-5">Send us a message</h1>
+		    				<div></div>
+		    			</div>
+			    		<form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" method="post">
+						  	<div class="form-group">
+						    	<label for="">Your Name</label>
+						  	  	<input type="text" class="form-control" placeholder="Enter Name" name="from_name" required ngModel>
+						 	 </div>
+						  	<div class="form-group">
+						    	<label for="">Your Email</label>
+						    	<input type="email" class="form-control" placeholder="Enter email" name="from_email" required ngModel>
+						  	</div>
+						  	<div class="form-group">
+						    	<label for="">Your Message</label>
+						    	<textarea class="form-control" rows="5" name="message_html" ngModel></textarea>
+						  	</div>
+						  	<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+		    		</div>
+		    	</div>
+		    	<div class="col-md-5 col-sm-12 pt-5  text-white">
+		    		<div class="col-md-12 pl-4 pr-4 col-sm-12 pt-4 pb-4 bg-dark">
+		    			<div class="title pb-4">
+		    				<h1 class="border-bottom-5">Contact Information</h1>
+		    				<h4></h4>
+		    			</div>
+		    			<div class="row form-group">
+					    	<h2 class="col-md-1 col-sm-3 text-danger"><i class="fa fa-map-marker" aria-hidden="true"></i></h2>
+					    	<p class="col-md-11 col-sm-9"><b>Visit our company at</b><br><span>Unit 32F Pearl of the Orient Tower, Roxas Blvd., Malate, Manila</span></p>
+					 	 </div>
+			    		<div class="row form-group">
+					    	<h2 class="col-md-1 col-sm-3 text-danger"><i class="fa fa-phone" aria-hidden="true"></i></h2>
+					    	<p class="col-md-11 col-sm-9"><b>Call us</b><br><span>+6393929312</span></p>
+					 	 </div>
+			    		<div class="row form-group">
+					    	<h3 class="col-md-1 col-sm-3 text-danger"><i class="fa fa-envelope-o" aria-hidden="true"></i></h3>
+					    	<p class="col-md-11 col-sm-9"><b>Email us</b><br><span>info@fawcargosolutions.com</span></p>
+					 	 </div>
+		    		</div>
+		    	</div>
+		    </div>
+	    </div>
+  	</div>
 </div>
