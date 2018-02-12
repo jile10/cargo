@@ -1,23 +1,62 @@
 nav{
-	padding: 10px;
 }
 ul{
 	margin-right: 10%;
 }
+ul > li > a{
+	vertical-align: middle;
+	padding: 13px;
+}
 ul > li > a:hover{
-	color: #CC0001;
+	color: white;
+	transition: 0.3s;
 }
-
+.logo-row{
+	min-height: 80px;
+}
+.slogan{
+	font-size: 30px;
+}
+.slogan-logo{
+	width: 35px;
+	height: 35px;
+	line-height: 10px;
+}
+/*.nav-row{
+	height: 50px;
+}
+*/
 .show > .nav-link, .nav-link.active {
-	color: #CC0001 !important;
+	color: white !important;
+	background-color: #222931;
+}.show > .nav-link, .nav-item:hover {
+	transition: 0.3s;
+	background-color: #222931;
 }
-
 .nav-link{
 	font-weight: bolder;
+	height: 100%;
+}
+.nav-item>a{
+	color: white;
+}
+.navbar-toggler{
+	background-color: rgb(223, 21, 45);
+	height: 60px;
+	width: 60px;
+	border-radius: 0px;
+}
+.navbar-toggler .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+.toggler{
+	height: 60px;
+	background-color: #222931;
 }
 
 .dropdown-menu{
-	background-color: #282E3E;
+	background-color: #222931;
 }
 
 .dropdown-menu > .dropdown-item{

@@ -34,6 +34,8 @@
 }*/
 *{
 	font-family: 'Hind', sans-serif;
+	font-size: 14px;
+	border-radius: 0px;
 }
 .btn{
 	z-index: 7;
@@ -69,9 +71,25 @@
 }
 .btn:hover{
 	transition: 0.3s;
-	background-color: #00274E;
+	background-color: #222931;
 }
 
 .btn-lg{
 	padding: 20px;
+}
+
+.color-white{
+	color: white;
+}
+.red-bg{
+	background-color: rgb(223, 21, 45);
+}
+.black-bg{
+	background-color: black;
+}
+.white-bg{
+	background-color: white;
+}
+.red-fg{
+	color: rgb(223, 21, 45);
 }
