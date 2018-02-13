@@ -1,7 +1,9 @@
 .feedback ,.h-60{
 	min-height: 60vh;
 }
-
+.h-50{
+    min-height: 50vh;
+}
 .h-37{
 	min-height: 37vh;
 }
@@ -26,6 +28,10 @@
 
 .about-content{
 	padding: 5% 0px;
+}
+
+.carousel-indicators{
+    position: relative;
 }
 
 .progressBar{
