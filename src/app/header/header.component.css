@@ -22,6 +22,11 @@ ul > li > a:hover{
 	height: 35px;
 	line-height: 10px;
 }
+.custom-divider{
+	width: 1px;
+	background-color: #E6E8E8;
+	height: 100%;
+}
 /*.nav-row{
 	height: 50px;
 }
