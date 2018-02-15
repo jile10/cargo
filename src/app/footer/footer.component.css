@@ -10,5 +10,16 @@
 }
 
 .h-60{
+	min-height: 60vh;
+}
+
+.px-50{
 	height: 50px;
+}
+
+.bg-darkblue{
+    background-color: #0A1E34;
+}
+.t-30{
+	text-indent: 30px;
 }
