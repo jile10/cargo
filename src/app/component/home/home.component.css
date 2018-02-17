@@ -1,4 +1,6 @@
-
+*{
+	font-family: 'Hind' , sans-serif;
+}
 .jumbotron{
 	min-height: calc(100vh - 70px);
 	background-image: url('../../../assets/images/sunset-truck.jpg');
@@ -51,6 +53,7 @@
 	margin-top: 30px;
 }
 .title .text3{
+	font-family: 'Raleway' , sans-serif;
 	font-size: 23px;
 	font-weight: 400;
 	letter-spacing: 0.32px;
@@ -135,5 +138,15 @@
 		letter-spacing: 0.32px;
 		line-height: 30px;
 		margin-top: 20px;
+	}
+	.title .text4{
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 200;
+	}
+	.slogan-logo{
+		width: 30px;
+		height: 30px;
 	}
 }
