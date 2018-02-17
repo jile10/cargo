@@ -8,18 +8,22 @@ import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './component/about/about.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule }   from '@angular/forms';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    routingComponents,
+    routingComponents, 
     FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBARONsl5pL990jQznhHebN4jbZJ4b_scs'
+    })
   ],
   providers: [
   ],

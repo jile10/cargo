@@ -1,19 +1,27 @@
 <div class="heading">
 	<div class="text-center text-white">
 		<div class="container">
-		    <div class="row align-items-center h-60">
-		        <div class="col-6 mx-auto">
+		    <div class="row align-items-center h-60 justify-content-center">
+		    	<div class="col-1 bg-white line" ></div>
+		        <div class="col-6">
 		            <div >
-		                <h1 class="text-muted"></h1>
+		                <h1 class="text-muted">Get a qoute from us</h1>
 		                <h1 class="display-3">CONTACT US</h1>
 		            </div>
 		        </div>
+		    	<div class="col-1 bg-white line" ></div>
 		    </div>
 		</div>
 	</div>
 </div>
 <div class="map">
-	<iframe src="https://www.google.com/maps/d/embed?mid=1TxIfpHot-x6yUCqyHZU26dNSygiCCGZN" class="map" width="100%"></iframe>
+	<agm-map [latitude]="lat" [longitude]="lng" [zoom]="18" [fullscreenControl]="true">
+		<agm-marker [latitude]="lat" [longitude]="lng">
+			<agm-info-window [isOpen]="true">
+				<h4>Visit us here</h4>
+			</agm-info-window>
+		</agm-marker>
+	</agm-map>
 </div>
 <div class="container-fluid bg-secondary text-dark contact">
  	<div class="row justify-content-center">

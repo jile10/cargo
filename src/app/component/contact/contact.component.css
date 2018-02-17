@@ -1,12 +1,16 @@
 .heading{
-	background-image: url('https://greencommunityproject.org/wp-content/uploads/2015/06/contact-us2.jpg');
+	background-image: url('/assets/images/contact_us.jpg');
 	min-height: 60vh;
-	background-size: 100% 60vh;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .h-60{
 	min-height: 60vh;
+}
+
+agm-map{
+	height: 480px;
 }
 
 .contact, .map{
@@ -15,6 +19,11 @@
 
 .bg-secondary{
 	background-color: #D6D8D9 !important;
+}
+
+.line{
+	height: 5px;
+	border-radius: 2px;
 }
 
 @media only screen and (max-width: 768px) {
