@@ -9,6 +9,10 @@
 	min-height: 60vh;
 }
 
+agm-map{
+	height: 480px;
+}
+
 .contact, .map{
 	min-height: 75vh;
 }

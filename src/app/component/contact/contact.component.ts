@@ -1,6 +1,7 @@
-import { NgModule }           from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Component, OnInit, Inject } from '@angular/core';
 import { FormsModule }   from '@angular/forms';
+import { AgmCoreModule } from '@agm/core';
 
 declare let emailjs:any;
 @Component({
@@ -14,6 +15,9 @@ declare let emailjs:any;
    ],
 })
 export class ContactComponent implements OnInit {
+  lat: number = 14.5770263;
+  lng: number = 120.979675;
+  title = "Visit us here";
   constructor(){
 
   }

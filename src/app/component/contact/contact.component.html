@@ -15,7 +15,13 @@
 	</div>
 </div>
 <div class="map">
-	<iframe src="https://www.google.com/maps/d/embed?mid=1TxIfpHot-x6yUCqyHZU26dNSygiCCGZN" class="map" width="100%"></iframe>
+	<agm-map [latitude]="lat" [longitude]="lng" [zoom]="18" [fullscreenControl]="true">
+		<agm-marker [latitude]="lat" [longitude]="lng">
+			<agm-info-window [isOpen]="true">
+				<h4>Visit us here</h4>
+			</agm-info-window>
+		</agm-marker>
+	</agm-map>
 </div>
 <div class="container-fluid bg-secondary text-dark contact">
  	<div class="row justify-content-center">
