@@ -11,7 +11,6 @@
 	border-radius: 0px;
 	margin: 0px !important;
 	z-index: -1;
-
 }
 .jumbotron:after{
   background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
@@ -21,6 +20,9 @@
   background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+.btn:hover{
+	background-color: #222931;
 }
 .about, .feedback{
 	min-height: 100vh;
@@ -38,14 +40,14 @@
 	text-align: center;
 }
 .title .text1{
-	font-size: 30px;
+	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-weight: 400;
 	color: #eaf2f6;
 }
 .title .text2{
-	font-size: 60px;
+	font-size: 4rem;
 	text-transform: uppercase;
 	letter-spacing: 7.2px;
 	font-weight: 700;
@@ -54,22 +56,22 @@
 }
 .title .text3{
 	font-family: 'Raleway' , sans-serif;
-	font-size: 23px;
+	font-size: 1.3rem;
 	font-weight: 400;
 	letter-spacing: 0.32px;
 	line-height: 30px;
 	margin-top: 46px;
-	padding: 0px 250px;
+	padding: 0px 100px;
 }
 .title .text4{
-	font-size: 40px;
+	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-weight: 400;
 }
 .slogan-logo{
-	width: 50px;
-	height: 50px;
+	width: 45px;
+	height: 45px;
 }
 
 /*@media only screen and (max-width: 1440px) {
