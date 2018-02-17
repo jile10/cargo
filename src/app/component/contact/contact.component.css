@@ -1,8 +1,13 @@
-.heading{
+.heading {
 	background-image: url('/assets/images/contact_us.jpg');
 	min-height: 60vh;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.hind{
+
+	font-family: 'Hind',sans-serif;
 }
 
 .h-60{
@@ -13,7 +18,10 @@ agm-map{
 	height: 480px;
 }
 
-.contact, .map{
+.contact{
+	background-image: url('/assets/images/contact_form.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 	min-height: 75vh;
 }
 
@@ -24,6 +32,10 @@ agm-map{
 .line{
 	height: 5px;
 	border-radius: 2px;
+}
+
+.bg-transparent-white{
+	background-color: rgba(0,0,0,0.5);
 }
 
 @media only screen and (max-width: 768px) {
