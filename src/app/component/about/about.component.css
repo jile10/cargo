@@ -36,6 +36,12 @@
 .h-120{
     min-height: 120vh;
 }
+
+.line{
+    height: 5px;
+    border-radius: 2px;
+}
+
 .mx{
 	margin: 5px 20px !important;
 }
@@ -50,8 +56,8 @@
 
 .heading{
 	height: 60vh;
-	background-image: url('http://www.pxleyes.com/images/contests/long-exposure-2/fullsize/A-truck-passed-by--50a7bc1948928_hires.jpg');
-	background-size: 100% 60vh;
+	background-image: url('/assets/images/about.jpg');
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
