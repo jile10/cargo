@@ -38,8 +38,12 @@ agm-map{
 	background-color: rgba(0,0,0,0.5);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
 	.display-3{
-		font-size: 48px !important;
+		font-size: 36px !important;
+	}
+
+	.sm-hide{
+		display: none;
 	}
 }

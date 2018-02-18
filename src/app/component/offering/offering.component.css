@@ -5,6 +5,10 @@
 	background-repeat: no-repeat;
 }
 
+.hind{
+
+    font-family: 'Hind',sans-serif;
+}
 .h-60{
 	min-height: 60vh;
 }
@@ -54,12 +58,16 @@
 /*.containerized_panel{
 	background-color: rgba(0,0,0,0.5);
 }*/
-@media only screen and (max-width: 768px) {
-	.display-3 {
-		font-size: 32px !important;
+
+@media only screen and (max-width: 320px) {
+	.display-3{
+		font-size: 36px !important;
 	}
 
 	h1{
 		font-size: 24px;
+	}
+	.sm-hide{
+		display: none;
 	}
 }
