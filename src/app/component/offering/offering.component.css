@@ -59,7 +59,7 @@
 	background-color: rgba(0,0,0,0.5);
 }*/
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
 	.display-3{
 		font-size: 36px !important;
 	}

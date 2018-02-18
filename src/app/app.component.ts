@@ -19,4 +19,7 @@ export class AppComponent {
             window.scrollTo(0, 0)
         });
     }
+    goingUp(){
+      window.scrollTo(0, 0);
+    }
 }

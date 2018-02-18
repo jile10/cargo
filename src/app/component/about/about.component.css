@@ -145,7 +145,7 @@
     color: #bdc3c7;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
 	.display-3{
 		font-size: 36px !important;
 	}
