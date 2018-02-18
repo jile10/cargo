@@ -25,6 +25,10 @@
 .p-20{
 	padding-top: 8%;
 }
+.title{
+	font-family: 'Hind', sans-serif;
+	font-size: 2.5rem;
+}
 .parcel{
 	background-image: url('/assets/images/parcel_bg.jpg');
 	background-size: cover;
