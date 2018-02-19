@@ -22,7 +22,7 @@ agm-map{
 	background-image: url('/assets/images/contact_form.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 75vh;
+	min-height: 50vh;
 }
 
 .bg-secondary{
