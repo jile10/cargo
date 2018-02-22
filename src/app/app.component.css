@@ -1,0 +1,52 @@
+.button{
+	padding: 12px 15px;
+	position: fixed;
+	bottom: 75px;
+	right: 25px;
+	cursor: pointer;
+	color: white;
+	background-color: #DF152D;
+	border: 0px;
+	border-radius: 9px;
+}
+.button:hover{
+	background-color: #222931;
+}
+
+/* Ripple magic */
+button{
+  position: relative;
+  overflow: hidden;
+}
+
+button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(255, 255, 255, .5);
+  opacity: 0;  
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+button:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
+}

@@ -54,10 +54,6 @@
 	color: white;
 }
 
-.about-content{
-	padding: 5% 0px;
-}
-
 .heading{
 	height: 60vh;
 	background-image: url('/assets/images/about.jpg');
@@ -149,11 +145,16 @@
     color: #bdc3c7;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
 	.display-3{
-		font-size: 48px !important;
+		font-size: 36px !important;
 	}
-
+    .display-2{
+        font-size: 72px !important;
+    }
+    .text-key{
+        font-size: 28px;
+    }
     blockquote > h1{
         font-size: 24px;
     }
@@ -169,6 +170,12 @@
     }
     .small > h3{
         font-size: 20px;
+    }
+    .small > h4{
+        font-size: 20px;
+    }
+    .sm-hide{
+        display: none;
     }
 }
 
