@@ -4,13 +4,16 @@ import { HomeComponent } from './component/home/home.component';
 import { AboutComponent } from './component/about/about.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { OfferingComponent } from './component/offering/offering.component';
+import { GalleryComponent } from './component/gallery/gallery.component';
 
 const routes: Routes = [
 	{ path: '', redirectTo: 'home', pathMatch: 'full'},
 	{ path: 'home', component: HomeComponent },
 	{ path: 'about', component: AboutComponent },
 	{ path: 'contact', component: ContactComponent },
-	{ path: 'offering', component: OfferingComponent }
+	{ path: 'offering', component: OfferingComponent },
+	{ path: 'gallery', component: GalleryComponent }
+
 ];
 
 @NgModule({
@@ -18,5 +21,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [HomeComponent,AboutComponent,ContactComponent,OfferingComponent];
+export const routingComponents = [HomeComponent,AboutComponent,ContactComponent,OfferingComponent,GalleryComponent];
 
