@@ -11,7 +11,7 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
   	$('.carousel').carousel({
-	  interval: 2000
+	  interval: 3000
 	})
   }
 
